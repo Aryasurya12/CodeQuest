@@ -31,14 +31,14 @@ Environment: Modern browser features like ES Modules and Import Maps (No build s
 
 Since this project is built without a traditional build step (like Webpack or Vite), you can run it easily with any local static server.
 
-Clone the repository:
+#Clone the repository:
 git clone https://github.com/your-username/codequest.git
 cd codequest
 
-Set up your API Key:
+#Set up your API Key:
 The application requires a Google Gemini API key. The app is designed to read this key from an environment variable (process.env.API_KEY) that the hosting environment provides. For simple local testing, you will need a server that can inject this variable.
 
-Serve the files:
+#Serve the files:
 You can use any simple static server.
 
 Using Node.js and serve:
@@ -49,7 +49,8 @@ npm install -g serve
 # Run the server
 serve -s .
 
-📂 Project Structure
+#📂 Project Structure
+
 /
 ├── components/       # Reusable React components (Button, Header, Modals, etc.)
 │   ├── icons/        # SVG icon components
