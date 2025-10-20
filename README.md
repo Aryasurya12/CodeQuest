@@ -1,8 +1,8 @@
-🚀 CodeQuest: Learn Python by Playing 🐍
+**🚀 CodeQuest: Learn Python by Playing 🐍**
 
 CodeQuest is an interactive, gamified web application designed to make learning Python fun and engaging. Conquer coding challenges, master lessons, and rise to the top of the leaderboard!
 
-✨ Features
+**✨ Features**
 
 CodeQuest is packed with features to create a comprehensive and enjoyable learning experience:
 🎮 Gamified Progression: Earn XP and coins for completing challenges, lessons, and puzzles. Keep your daily login streak alive to maximize rewards!
@@ -17,7 +17,7 @@ CodeQuest is packed with features to create a comprehensive and enjoyable learni
 🔐 User Authentication: A secure and persistent login/registration system using local storage to save your progress.
 📱 Modern & Responsive UI: A sleek, dark-themed interface built with Tailwind CSS, featuring smooth animations and a design that looks great on any device.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 This project is built with a modern, no-build-step toolchain:
 
@@ -27,18 +27,18 @@ State Management: React Context API & Hooks (useContext, useState, useEffect)
 Persistence: Browser Local Storage (for user sessions, code progress, chat history)
 Environment: Modern browser features like ES Modules and Import Maps (No build step required!)
 
-🚀 Getting Started
+**🚀 Getting Started**
 
 Since this project is built without a traditional build step (like Webpack or Vite), you can run it easily with any local static server.
 
-#Clone the repository:
+**Clone the repository:**
 git clone https://github.com/your-username/codequest.git
 cd codequest
 
-#Set up your API Key:
+**Set up your API Key:**
 The application requires a Google Gemini API key. The app is designed to read this key from an environment variable (process.env.API_KEY) that the hosting environment provides. For simple local testing, you will need a server that can inject this variable.
 
-#Serve the files:
+**Serve the files:**
 You can use any simple static server.
 
 Using Node.js and serve:
@@ -49,7 +49,7 @@ npm install -g serve
 # Run the server
 serve -s .
 
-#📂 Project Structure
+**📂 Project Structure**
 
 /
 ├── components/       # Reusable React components (Button, Header, Modals, etc.)
@@ -64,5 +64,5 @@ serve -s .
 ├── index.tsx         # The main React entry point
 └── README.md         # This file!
 
-📜 License
+**📜 License**
 This project is licensed under the MIT License. See the LICENSE file for details.
